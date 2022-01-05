@@ -1,0 +1,136 @@
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.body-bg {
+  background-color: hsl(217, 54%, 11%);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+
+.card {
+  padding: 22px;
+  border-radius: 12px;
+  height: 470px;
+  width: 270px;
+}
+
+
+
+.card h1 {
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  font-size: 18px;
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+
+.card h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card p {
+  color: hsl(215, 51%, 70%);
+  line-height: 1.7;
+  font-size: 14px;
+  font-family: Outfit;
+  width: 26ch;
+}
+
+.span {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.olho:hover {
+  cursor: pointer;
+  
+}
+
+.coin {
+  color: hsl(178, 100%, 50%);
+  font-size: 16px;
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+
+.dias {
+  color: hsl(215, 51%, 70%);
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+}
+
+.eth {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.hora {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.background-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+
+
+.card {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.jules {
+  margin-top: 6px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.jules img {
+  width: 10%;
+  height: 10%;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.ju {
+  color: hsl(0, 0%, 100%)
+}
+
+.ju:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 16px;
+  margin-top: 270px;
+  
+}
+
+@media(max-width: 600px) {
+  .background-body {
+    margin-top: 40px;
+  }
+  .attribution {
+    margin-top: 160px;
+  }
+}
+
